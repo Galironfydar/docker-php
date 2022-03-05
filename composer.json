@@ -1,0 +1,16 @@
+{
+    "name": "galironfydar/php81",
+    "autoload": {
+        "psr-4": {
+            "Galironfydar\\": "src/"
+        }
+    },
+    "autoload-test": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
